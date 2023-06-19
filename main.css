@@ -30,14 +30,15 @@
   background-position-y: 100%;
   background-position-x: center;
   background-repeat: no-repeat;
-  height: 90vh;
+  height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  padding: 0 1.5rem;
+  padding: 0 1rem;
+  padding-bottom: 5rem;
 }
 
 .main-banner__container {
@@ -66,7 +67,7 @@
   );
   background-image: -o-linear-gradient(rgb(29 35 57/80%) 0 0);
   background-image: linear-gradient(rgb(29 35 57/80%) 0 0);
-  padding: 3rem;
+  padding: 1.5rem;
 }
 
 .main-banner__title {
@@ -222,6 +223,13 @@
 }
 
 @media (min-width: 1281px) {
+  .main-banner {
+    padding: 0;
+    margin: 0;
+  }
+  .main-banner__content {
+    padding: 5rem;
+  }
   .main-banner__text {
     padding: 0;
   }
@@ -292,8 +300,9 @@
 
 .title {
   font-family: var(--title-font);
-  font-size: 2rem;
+  font-size: 1.4rem;
   font-weight: 700;
+  line-height: 2.5rem;
 }
 
 .subtitle {
@@ -467,6 +476,7 @@
     font-size: 3.5rem;
     padding: 0px;
     margin: 0px;
+    line-height: 5rem;
   }
   .special-image__container {
     height: 800px;
